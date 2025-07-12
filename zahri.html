@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Zahri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #c0d5f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    .portfolio-container {
+      max-width: 900px;
+      margin: auto;
+      background: rgb(254, 222, 157);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(7,7,7,0.4);
+    }
+
+    header {
+      background-color: #f4a300;
+      padding: 15px 20px;
+      border-radius: 12px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: center;
+      box-shadow: 0 0 20px rgb(247, 247, 247);
+    }
+
+    .header-center {
+      flex: 1;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .logo {
+      width: 50px;
+      height: auto;
+    }
+
+    .logo-sekolah {
+      width: 95px;
+      height: auto;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 180px;
+      object-fit: cover;
+      border: 7px solid #a9cdf2;
+      margin-left: 40px;
+    }
+
+    .left-side {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .right-side {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #444;
+    }
+
+    @media screen and (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .header-center {
+        text-align: center;
+      }
+
+      .content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="portfolio-container">
+    <header>
+      <img src="https://iili.io/FEOLVgR.png" alt="Logo Sekolah" class="logo-sekolah">
+      <div class="header-center">
+        <h1>PORTFOLIO ZAHRI</h1>
+        <p>IKATAN PELAJAR MUHAMMADIYAH</p>
+      </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Logo_IPM.png" alt="logo ipm" class="logo">
+    </header>
+
+    <div class="content">
+      <div class="left-side">
+        <img src="https://i.pinimg.com/736x/de/64/27/de6427db89ccf59e209e922c68346a27.jpg" alt="Saqilla Photo" class="profile-img">
+        <br/><br/>
+        <h2>Profile Sukma</h2>
+        <ul>
+          <li><strong>Nama:</strong> Muhammad Zahri Khuzayr </li>
+          <li><strong>Jurusan:</strong> TPMI</li>
+          <li><strong>Email:</strong> <a href="mailto:zahrikhuzair@gmail.com">zahrikhuzair@gmail.com</a></li>
+          <li><strong>Instagram: </strong> <a href="https://instagram.com/mhmmdzhri.k" target="_blank">@mhmmdzhri.k</a></li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>2024–2027<br/>SMKTI MUHAMMADIYAH CIKAMPEK</p>
+      </div>
+
+      <div class="right-side">
+        <h2>HELLO!</h2>
+        <p>
+          Aku <strong>Muhammad Zahri Khuzayr</strong>, salah satu anggota Ikatan Pelajar Muhammadiyah yang menjabat sebagai anggota Pengkajian Ilmu Pengetahuan (PIP). Kalau ingin berteman denganku bisa hubungi social mediaku dibawah ok, atau mau kenalan langsung juga boleh bangett yaa. sampai jumpa lagii!
+        </p>
+        <p>
+          "berusaha sebaik mungkin, hasil serahkan pada tuhan"
+        </p>
+      </div>
+    </div>
+
+    <footer><hr color="black"/>
+      <br/>LET'S BE FRIEND BRO!!!
+    </footer>
+  </div>
+</body>
+</html>
